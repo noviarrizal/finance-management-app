@@ -1,5 +1,3 @@
-
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -7,8 +5,8 @@ export default function RootLayout({
 }>) {
   return (
     <main>
-        sidebar
-        {children}
+      sidebar
+      {children}
     </main>
   );
 }
